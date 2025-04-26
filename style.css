@@ -3,7 +3,22 @@
     background-color: rgb(59, 60, 72);
     opacity: 0.9;
 }
-.nav-link:hover,.active {
+.nav-link:hover, .nav-link .active {
     background-color: rgb(239, 102, 3) !important;
     border-radius: 35px !important;
 }
+        /* section home */
+.sec-home{
+    background-color: rgb(59, 60, 72) ;
+}     
+.btn-outline-secondary:hover{
+    background-color:rgb(239, 102, 3) !important;
+    
+}
+.btn-outline-secondary{
+    color: white !important;
+    border: 2px solid rgb(239, 102, 3) !important;
+}
+/* .para{
+    margin-top: 30px;
+} */
