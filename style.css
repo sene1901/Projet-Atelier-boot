@@ -1,1 +1,41 @@
+.porti
+{
+    color: rgb(239, 102, 3);
+    height: 1px;
+    width: 130px;
+    box-sizing: border-box;
+}
+img
+{
+    width: 100%;    
+}
+.img
+{
+    position: relative;
+    display: flex;
+    align-items: eNd;
+    overflow: hidden;
+    margin-bottom: 20px;
+    display: block;  
+}
+
+.icone
+{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    box-shadow: 20px;
+}
+
+.img:hover
+{
+    overflow: visible;
+    display: flex;
+}
+a.btn:hover
+{
+background-color: orangered;
+
+
+}
 
