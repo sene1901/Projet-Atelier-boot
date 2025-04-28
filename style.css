@@ -1,7 +1,10 @@
 
 body{
     font-family: "Raleway",  sans-serif;
+<<<<<<< HEAD
 }
+=======
+>>>>>>> bb472dd61ea1c3f03024833ec1d7a08c0a7ef016
 .porti
 {
     color: rgb(239, 102, 3);
@@ -39,6 +42,10 @@ img
 a.btn:hover
 {
 background-color: orangered;
+<<<<<<< HEAD
+=======
+
+>>>>>>> bb472dd61ea1c3f03024833ec1d7a08c0a7ef016
 }
 
 /* Navbar */
