@@ -1,1 +1,19 @@
 
+.trait
+{
+    width: 130px;
+    color: rgb(255, 102, 0);
+
+}
+.img
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.bi-star-fill
+{
+    color: orange;
+    height: 1110;
+}
