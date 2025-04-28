@@ -1,3 +1,7 @@
+body{
+    font-family: "Raleway",  sans-serif;;
+}
+
 /* Navbar */
 .header{
     background-color: rgb(59, 60, 72);
@@ -42,11 +46,9 @@
      color: rgb(82, 83, 85); 
 
 }
-
 #About .nav-pills .nav-link:hover,  #About .nav-pills .active {
-    background-color: rgb(231, 106, 11) ;
-    color:white;
-    border: #ef6603 !important;
+    background-color: rgb(231, 106, 11);
+    color:white; 
 }  
 
 #About .nav-pills .active .icon-about {
@@ -57,3 +59,37 @@
     color: #ef6603;
 
  }
+        /* SECTION SERVICES */
+     
+    .icon1  {
+        font-size: 4rem;
+        color: #0dcaf0 ;
+    }  
+    .icon2  {
+        font-size: 4rem;
+        color:  #fd7e14;
+    }  
+    .icon3  {
+        font-size: 4rem;
+        color: #20c997;
+    }  
+    .icon4  {
+        font-size: 4rem;
+        color: #df1529;
+    }  
+    .icon5{
+        font-size: 4rem;
+        color:  #6610f2;
+    }
+    .icon6{  
+        font-size: 4rem;
+        color: #f3268c;
+    }
+    .card-service:hover {
+        transform:translateY(-15px);
+        cursor: pointer;
+    }
+    .titre1:hover{
+        color: #ef6603 !important;
+
+    }
