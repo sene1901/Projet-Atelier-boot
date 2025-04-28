@@ -13,7 +13,7 @@ img
 {
     position: relative;
     display: flex;
-    align-items: eNd;
+    align-items: end;
     overflow: hidden;
     margin-bottom: 20px;
     display: block;  
@@ -35,7 +35,8 @@ img
 a.btn:hover
 {
 background-color: orangered;
-
-
+text-decoration-color: antiquewhite;
 }
+
+
 
