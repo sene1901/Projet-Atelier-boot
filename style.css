@@ -1,9 +1,33 @@
-header
+.header
 {
-    background-color: orangered;
+    background-color: orangered !important;
+    
 }
 .btn5
 {
+    background-color: orangered !important;
+}
+.card-text
+{
+    font-size: 14px;
+    
+}
+.fs-4
+{
+    color: rgb(94, 94, 94);
+    font-weight: 100;
+}
+.advanced
+{
+    position: absolute;
+    width: 90px;
+    position: absolute;
+    top: 20px;
+    right: -18px;
+    transform: rotate(45deg);
+    z-index: 1;
+    font-size: 14px;
     background-color: orangered;
+    padding: 1px 0px 3px;
 }
 
