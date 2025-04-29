@@ -1,1 +1,21 @@
+.blog
+{
+    height: 50px;
+    border-radius: 50px;
 
+}
+.mari
+{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.texto
+{
+    font-size: 20px;
+    font-weight: 700
+}
+.link-underline:hover
+{
+    color: orangered !important;
+}
