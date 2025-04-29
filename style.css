@@ -185,3 +185,44 @@ background-color: rgb(239, 102, 3) !important;
 {
     color: #ef6603;
 }
+/* <!-------astou------------> */
+
+.sous{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+
+.under p{
+    color: black;
+    font-weight: bold;
+}
+.card-body p{
+    color: black;
+    font-weight: bold;
+}
+.zone{
+    width: 550px;
+    height: 20vh;
+}
+
+.icone-contact{
+    color: orangered;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+}
+.icone-contact:hover{
+    background-color: orangered;
+    color: white;
+}
+.I{
+    background-color: orangered;
+}
+.borderb{
+    border: none;
+    border-bottom: 1px solid orangered;
+    width: 150px;
+   
+}
