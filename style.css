@@ -26,7 +26,10 @@ img
     width: 100%;
     box-shadow: 20px;
 }
-
+a
+{
+    color: black;
+}
 .img:hover
 {
     overflow: visible;
@@ -35,5 +38,14 @@ img
 a.btn:hover
 {
 background-color: orangered;
-text-decoration-color: antiquewhite;
+color: white !important;
+}
+.bic:hover
+{
+   
+    color: red;
+}
+.bic
+{
+    color: black; 
 }
