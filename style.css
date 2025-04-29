@@ -227,3 +227,36 @@ background-color: rgb(239, 102, 3) !important;
     .card{
         flex-wrap: wrap;
     }
+
+.ico
+{
+    color: rgb(107, 109, 110);
+}
+.ico:hover
+{
+    color: orangered
+}
+.card .social {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    position: absolute;
+    bottom: 105px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .card:hover .social {
+    opacity: 1;
+  }
+  
+        /* team */
+        .bi-twitter-x,
+.bi-facebook,
+.bi-instagram,
+.bi-linkedin 
+{
+    background-color: rgb(248, 243, 243);
+    opacity: 16px;
+    border-radius: 2px;
+}
+
