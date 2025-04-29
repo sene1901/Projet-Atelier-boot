@@ -10,9 +10,12 @@ body{
 }
 
 .link1:hover, .link1 .active {
-    background-color: rgb(239, 102, 3) !important;
-    border-radius: 35px !important;
-    padding: 10px 25px !important;
+background-color: rgb(239, 102, 3) !important;
+ border-radius: 35px !important;
+}
+
+.nav-item a{
+    color: white;
 }
         /* section home */
 .sec-home{
@@ -102,33 +105,46 @@ body{
     /* section portfolio */
 
 
-.img
-{
-    position: relative;
-    display: flex;
-    align-items: eNd;
-    overflow: hidden;
-    margin-bottom: 20px;
-    display: block;  
-}
-
-.icone
-{
-    position: absolute;
-    background-color: white;
-    width: 100%;
-    box-shadow: 20px;
-}
-
-.img:hover
-{
-    overflow: visible;
-    display: flex;
-}
-a.btn:hover
-{
-background-color: orangered;
-}
+    .porti
+    {
+        color: rgb(239, 102, 3);
+        height: 1px;
+        width: 130px;
+        box-sizing: border-box;
+    }
+    img
+    {
+        width: 100%;    
+    }
+    .img
+    {
+        position: relative;
+        display: flex;
+        align-items: end;
+        overflow: hidden;
+        margin-bottom: 20px;
+        display: block;  
+    }
+    
+    .icone
+    {
+        position: absolute;
+        background-color: white;
+        width: 100%;
+        box-shadow: 20px;
+    }
+    
+    .img:hover
+    {
+        overflow: visible;
+        display: flex;
+    }
+  
+    a.btn:hover , a.btn1 
+    {
+    background-color: rgb(248, 75, 11);
+    text-decoration-color: antiquewhite;
+    }
 @media screen and (max-width:768px) {
     .icon-about{
         font-size: 28px;
@@ -136,6 +152,13 @@ background-color: orangered;
         height: 40px;
         margin-left: -20px;
         padding-left: 12px;
+    }
+    .navbar-collapse{
+        background-color: white;
+        color: rgb(59, 61, 63);
+    }
+    .nav-item a{
+        color: black;
     }
     
     
