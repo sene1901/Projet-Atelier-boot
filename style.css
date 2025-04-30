@@ -1,3 +1,7 @@
+.blog
+{
+    height: 50px;
+    border-radius: 50px;}
 
 body{
     font-family: "Raleway",  sans-serif;
@@ -260,3 +264,26 @@ background-color: rgb(239, 102, 3) !important;
     border-radius: 2px;
 }
 
+
+.mari
+{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.texto
+{
+    font-size: 20px;
+    font-weight: 700
+}
+.link-underline:hover
+{
+    color: orangered !important;
+}
+        /* BLOG */
+        .image-rond{
+            width: 3rem;
+            height: 3rem;
+            border-radius: 50%;
+        }
+        
